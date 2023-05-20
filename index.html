@@ -12,17 +12,17 @@
             font-family: Arial, Helvetica, sans-serif;
         }        
         body{
-            background-color: rgba(83, 83, 83, 0.995);
+            background-color: rgba(110, 110, 110, 0.995);
         }
         header{
-            background-color: rgb(71, 71, 71);
+            background-color: rgb(98, 98, 98);
             text-align: center;
             padding: 10px;
         }
         header h1{
             font-size: 3em;
         }
-        main{
+        #one{
             margin: 25px;
             padding: 30px;
             margin: auto;
@@ -30,7 +30,7 @@
             display: flex;
             flex-flow: column;
         }
-        main #asd{
+        #one #asd{
             display: flex;
             align-items: center;
         }
@@ -42,12 +42,41 @@
         section p{
             font-size: 26px;
         }
-        main article h2{
+        #one article h2{
             font-size: 24px;
         }
         #adf h1{
             text-align: center;
         }
+
+        #two{
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            max-width: 1800px;
+        }
+        #adf{
+             display: flex;
+             flex-flow: row wrap;
+             justify-content: center;
+             padding: 5px;
+        }
+        #two h1{
+            margin: 40px;
+        }
+        #two .card{
+            background-color: rgba(255, 255, 255, 0.691);
+            max-width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        #two .card img{
+            width: 200px;
+            height: 200px;
+        }
+
     </style>
 </head>
 
@@ -57,30 +86,52 @@
         <h1>A caverna</h1>
 </header>
 
-<main>
+<main id="one">
         <article>
             <h2>Voce sabe oque e o One Piece?</h2>
         </article>
-        
+        <br>
         <section id="asd"> 
-        <img src="fotos/pato-faca.jpg" width="200px" height="200px" alt="foto do pato">
-            <p>-O One Piece e uma série foca em Monkey D. Luffy, um jovem feito de borracha, que, inspirado em seu ídolo de infância, o poderoso pirata Shanks, o Ruivo, parte em uma jornada do mar do East Blue para encontrar o tesouro mítico, o One Piece, e proclamar-se o Rei dos Piratas.</p>
+        <img src="fotos/pato-faca.jpg" width="160px" height="160px" alt="foto do pato">
+            <p>-A série foca em Monkey D. Luffy, um jovem feito de borracha, que, inspirado em seu ídolo de infância, o poderoso pirata Shanks, o Ruivo, parte em uma jornada do mar do East Blue para encontrar o tesouro mítico, o One Piece, e proclamar-se o Rei dos Piratas. Em um esforço para organizar sua própria tripulação, os Piratas do Chapéu de Palha, Luffy resgata e faz amizade com um caçador de piratas e espadachim chamado Roronoa Zoro, e eles partem em busca do tesouro titular. 
+               <br> Eles são acompanhados em sua jornada por Nami, uma ladra e navegadora obcecada por dinheiro; Usopp, um franco-atirador e mentiroso compulsivo; e Sanji, um cozinheiro amoroso mas cavalheiresco. Eles adquirem um navio, o Going Merry, e se envolvem em confrontos com notórios piratas do East Blue. Enquanto Luffy e sua equipe partem em suas aventuras, outros se juntam à equipe mais tarde na série, incluindo Tony Tony Chopper, um médico de renas antropomorfizado; Nico Robin, arqueóloga e ex-assassina da Baroque Works; Franky, um construtor naval ciborgue; Brook, um músico esqueleto e espadachim; e Jimbei, um timoneiro homem-peixe e ex-membro dos Sete Corsários do Mar. 
+               <br> Uma vez que o Going Merry está danificado além do reparo, Franky constrói um novo navio para os Piratas do Chapéu de Palha, o Thousand Sunny. Juntos, eles encontram outros piratas, caçadores de recompensas, organizações criminosas, revolucionários, agentes secretos e soldados do corrupto Governo Mundial, e vários outros amigos e inimigos, enquanto navegam pelos mares em busca de seus sonhos.</p>
         </section>
-
-        <section id="adf">
-
-            <h1>Personagens principais</h1>
-
-            <img src="fotos/luffy.jpg" alt="personagem">
-            <img src="fotos/zoro.jpg" alt="personagem">
-            <img src="fotos/nami.jpg" alt="personagem">
-            <img src="fotos/ussop.jpg" alt="personagem">
-            <img src="fotos/sanji.jpg" alt="personagem">
-        </section>
-
-
 
 </main>
 
+<main id="two">
+    
+        <h1>Personagens principais</h1>
+
+    <section id="adf">
+
+        <div class="card">
+            <img src="fotos/luffy.jpg" alt="personagem">
+            <p>Luffy é o capitão dos Piratas do Chapéu de Palha. Quando criança, ele comeu uma Gomu Gomu no Mi, uma fruta que lhe deu o poder do homem-borracha em troca de sua habilidade de nadar. Filho de Monkey D. Dragon, o jovem sonha em se tornar o Rei dos Piratas</p>
+        </div>
+
+        <div class="card">
+            <img src="fotos/zoro.jpg" alt="personagem">
+            <p>Roronoa Zoro, também conhecido como "Caçador de Piratas" Zoro, é o combatente dos Piratas do Chapéu de Palha e um ex-caçador de recompensas. Ele foi o primeiro membro a juntar-se à tripulação.</p>
+        </div>
+
+        <div class="card">
+            <img src="fotos/nami.jpg" alt="personagem">
+            <p> Nami aparece na história de One Piece inicialmente como uma renomada ladra de piratas (Gata Ladra), mas acaba se juntando à tripulação de Luffy durante o Arco da Cidade Laranja.</p>
+        </div>
+
+        <div class="card">
+            <img src="fotos/ussop.jpg" alt="personagem">
+            <p>God Usopp faz parte do grupo principal, os Piratas do Chapéu de Palha, onde atua primariamente como atirador mas quando necessário cumpre outras posições como inventor, escultor e pintor.</p>
+        </div>
+
+        <div class="card">
+            <img src="fotos/sanji.jpg" alt="personagem">
+            <p>Vinsmoke Sanji, faz parte da família real do reino de Germa, junto com seus outros três irmãos, e também é o cozinheiro dos Piratas do Chapéu de Palha, assim como um antigo chefe de cozinha do Baratie.</p>
+        </div>
+
+    </section>
+</main>
 </body>
 </html>
